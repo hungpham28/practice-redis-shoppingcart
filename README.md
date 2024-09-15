@@ -31,7 +31,7 @@ REDIS_PASSWORD: Redis password (default: demo)
 
 cp .env.example .env
 
-# Run docker compose or install redis with RedisJson module manually. You can also go to https://redislabs.com/try-free/ and obtain necessary environmental variables
+# Run docker compose or install redis with RedisJson module manually.
 
 docker network create global
 docker-compose up -d --build
